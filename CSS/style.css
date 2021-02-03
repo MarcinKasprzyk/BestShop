@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1352px;
+}
+
+:root {
+    --color-primary: #08A6E4;
+    --color-primary-shadow: rgba(7, 172, 230, .16);
+    --color-redish: #FB3B64;
+    --color-green: #55DFB4;
+    --color-black: #000000;
+    --color-grey: #A5A5A5;
+    --color-light-grey: #F7F7F7;
+    --color-white: #FFFFFF;
+}
+
+.header {
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-bottom: 4px solid transparent;
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    font: normal normal 300 32px/37px Raleway;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 2em;
+    color: var(--color-primary);
+}
+
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.navigation a {
+    text-align: center;
+    text-decoration: none;
+    font: normal normal bold 11px/15px Open Sans;
+    letter-spacing: 3.28px;
+    color: var(--color-grey);
+    padding: 9px;
+    margin: 45px
+}
+
+.navigation a:hover {
+    border-bottom: 4px solid #08A6E4;
+    padding-bottom: 26px;
+    color: #000000;
+}
+
+/* Part 2 - Banner content */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    flex-direction: column;
+}
+
+.page-title {
+    text-align: center;
+    font: normal normal normal 49px/57px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.page-subtitle {
+    text-align: center;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.page-btn {
+    text-align: center;
+    text-decoration: none;
+    font: normal normal bold 16px Open Sans;
+    color: #FFFFFF;
+    background: #08A6E4;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    padding: 22px 157px 23px 157px;
+}
+
+.banner-test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent url("/BestShop/assets/Background.png") no-repeat center;
+    height: 70vh;
+    background-size: contain;
+}
